@@ -1,0 +1,188 @@
+[29-Apr-2024 10:08:29 UTC] PHP Warning:  Undefined array key 0 in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/woostify-sites-library/includes/class-woostify-sites-elementor.php on line 535
+[29-Apr-2024 10:09:33 UTC] PHP Warning:  Undefined array key 0 in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/woostify-sites-library/includes/class-woostify-sites-elementor.php on line 535
+[29-Apr-2024 17:29:36 UTC] PHP Warning:  Undefined array key 0 in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/woostify-sites-library/includes/class-woostify-sites-elementor.php on line 535
+[29-Apr-2024 17:31:02 UTC] PHP Warning:  Undefined array key 0 in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/woostify-sites-library/includes/class-woostify-sites-elementor.php on line 382
+[29-Apr-2024 17:31:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/woostify-sites-library/includes/class-woostify-sites-elementor.php on line 382
+[29-Apr-2024 17:32:40 UTC] PHP Warning:  Undefined array key "id" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/modules/ai/module.php on line 223
+[29-Apr-2024 17:32:40 UTC] PHP Warning:  Undefined array key "id" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/modules/ai/module.php on line 224
+[29-Apr-2024 17:32:40 UTC] PHP Warning:  Undefined array key "elType" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 73
+[29-Apr-2024 17:32:40 UTC] PHP Warning:  Undefined array key "elType" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 76
+[29-Apr-2024 17:32:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_default_args() on array in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php:84
+Stack trace:
+#0 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(1058): Elementor\Elements_Manager->create_element_instance()
+#1 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(1328): Elementor\Core\Base\Document->get_elements_raw_data()
+#2 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(841): Elementor\Core\Base\Document->save_elements()
+#3 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/documents-manager.php(545): Elementor\Core\Base\Document->save()
+#4 [internal function]: Elementor\Core\Documents_Manager->ajax_save()
+#5 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func()
+#6 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#7 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/locazvwl/shop01.locarnoconsulting.com/wp-admin/admin-ajax.php(188): do_action()
+#10 {main}
+  thrown in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 84
+[29-Apr-2024 17:35:32 UTC] PHP Warning:  Undefined array key "id" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/modules/ai/module.php on line 223
+[29-Apr-2024 17:35:32 UTC] PHP Warning:  Undefined array key "id" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/modules/ai/module.php on line 224
+[29-Apr-2024 17:35:32 UTC] PHP Warning:  Undefined array key "elType" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 73
+[29-Apr-2024 17:35:32 UTC] PHP Warning:  Undefined array key "elType" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 76
+[29-Apr-2024 17:35:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_default_args() on array in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php:84
+Stack trace:
+#0 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(1058): Elementor\Elements_Manager->create_element_instance()
+#1 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(1328): Elementor\Core\Base\Document->get_elements_raw_data()
+#2 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(841): Elementor\Core\Base\Document->save_elements()
+#3 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/documents-manager.php(545): Elementor\Core\Base\Document->save()
+#4 [internal function]: Elementor\Core\Documents_Manager->ajax_save()
+#5 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func()
+#6 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#7 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/locazvwl/shop01.locarnoconsulting.com/wp-admin/admin-ajax.php(188): do_action()
+#10 {main}
+  thrown in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 84
+[29-Apr-2024 17:41:22 UTC] PHP Warning:  Undefined array key "id" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/modules/ai/module.php on line 223
+[29-Apr-2024 17:41:22 UTC] PHP Warning:  Undefined array key "id" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/modules/ai/module.php on line 224
+[29-Apr-2024 17:41:22 UTC] PHP Warning:  Undefined array key "elType" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 73
+[29-Apr-2024 17:41:22 UTC] PHP Warning:  Undefined array key "elType" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 76
+[29-Apr-2024 17:41:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_default_args() on array in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php:84
+Stack trace:
+#0 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(1058): Elementor\Elements_Manager->create_element_instance()
+#1 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(1328): Elementor\Core\Base\Document->get_elements_raw_data()
+#2 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(841): Elementor\Core\Base\Document->save_elements()
+#3 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/documents-manager.php(545): Elementor\Core\Base\Document->save()
+#4 [internal function]: Elementor\Core\Documents_Manager->ajax_save()
+#5 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func()
+#6 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#7 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/locazvwl/shop01.locarnoconsulting.com/wp-admin/admin-ajax.php(188): do_action()
+#10 {main}
+  thrown in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 84
+[29-Apr-2024 17:48:16 UTC] PHP Warning:  Undefined array key "id" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/modules/ai/module.php on line 223
+[29-Apr-2024 17:48:16 UTC] PHP Warning:  Undefined array key "id" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/modules/ai/module.php on line 224
+[29-Apr-2024 17:48:17 UTC] PHP Warning:  Undefined array key "elType" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 73
+[29-Apr-2024 17:48:17 UTC] PHP Warning:  Undefined array key "elType" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 76
+[29-Apr-2024 17:48:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_default_args() on array in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php:84
+Stack trace:
+#0 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(1058): Elementor\Elements_Manager->create_element_instance()
+#1 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(1328): Elementor\Core\Base\Document->get_elements_raw_data()
+#2 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(841): Elementor\Core\Base\Document->save_elements()
+#3 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/documents-manager.php(545): Elementor\Core\Base\Document->save()
+#4 [internal function]: Elementor\Core\Documents_Manager->ajax_save()
+#5 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func()
+#6 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#7 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/locazvwl/shop01.locarnoconsulting.com/wp-admin/admin-ajax.php(188): do_action()
+#10 {main}
+  thrown in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 84
+[29-Apr-2024 17:48:20 UTC] PHP Warning:  Undefined array key "id" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/modules/ai/module.php on line 223
+[29-Apr-2024 17:48:20 UTC] PHP Warning:  Undefined array key "id" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/modules/ai/module.php on line 224
+[29-Apr-2024 17:48:20 UTC] PHP Warning:  Undefined array key "elType" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 73
+[29-Apr-2024 17:48:20 UTC] PHP Warning:  Undefined array key "elType" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 76
+[29-Apr-2024 17:48:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_default_args() on array in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php:84
+Stack trace:
+#0 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(1058): Elementor\Elements_Manager->create_element_instance()
+#1 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(1328): Elementor\Core\Base\Document->get_elements_raw_data()
+#2 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(841): Elementor\Core\Base\Document->save_elements()
+#3 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/documents-manager.php(545): Elementor\Core\Base\Document->save()
+#4 [internal function]: Elementor\Core\Documents_Manager->ajax_save()
+#5 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func()
+#6 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#7 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/locazvwl/shop01.locarnoconsulting.com/wp-admin/admin-ajax.php(188): do_action()
+#10 {main}
+  thrown in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 84
+[29-Apr-2024 17:48:33 UTC] PHP Warning:  Undefined array key "id" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/modules/ai/module.php on line 223
+[29-Apr-2024 17:48:33 UTC] PHP Warning:  Undefined array key "id" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/modules/ai/module.php on line 224
+[29-Apr-2024 17:48:33 UTC] PHP Warning:  Undefined array key "elType" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 73
+[29-Apr-2024 17:48:33 UTC] PHP Warning:  Undefined array key "elType" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 76
+[29-Apr-2024 17:48:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_default_args() on array in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php:84
+Stack trace:
+#0 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(1058): Elementor\Elements_Manager->create_element_instance()
+#1 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(1328): Elementor\Core\Base\Document->get_elements_raw_data()
+#2 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/base/document.php(841): Elementor\Core\Base\Document->save_elements()
+#3 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/documents-manager.php(545): Elementor\Core\Base\Document->save()
+#4 [internal function]: Elementor\Core\Documents_Manager->ajax_save()
+#5 /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func()
+#6 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#7 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/locazvwl/shop01.locarnoconsulting.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/locazvwl/shop01.locarnoconsulting.com/wp-admin/admin-ajax.php(188): do_action()
+#10 {main}
+  thrown in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/elementor/includes/managers/elements.php on line 84
+[30-Apr-2024 14:31:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:31:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:32:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:32:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:32:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:32:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:32:22 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:32:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:32:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:32:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:32:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:32:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:33:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:33:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:33:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:33:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:36:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:36:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:41:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:41:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:41:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:41:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:42:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:42:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:42:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:42:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:42:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:46:34 UTC] PHP Warning:  Undefined array key "semail" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1889
+[30-Apr-2024 14:46:34 UTC] PHP Warning:  Undefined array key "semail" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 2096
+[30-Apr-2024 14:46:34 UTC] PHP Warning:  Undefined array key "banner_unit_id" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 2100
+[30-Apr-2024 14:46:34 UTC] PHP Warning:  Undefined array key "custom_launcher_logo" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 2110
+[30-Apr-2024 14:46:34 UTC] PHP Warning:  Undefined array key "custom_splash_logo" in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 2112
+[30-Apr-2024 14:46:44 UTC] WordPress database error Table 'locazvwl_wp6457.wpdf_wappcomment' doesn't exist for query SELECT * FROM wpdf_wappcomment made by do_action('wp_ajax_create_app'), WP_Hook->do_action, WP_Hook->apply_filters, wappPress_admin_setting->create_app, wcurlrequest
+[30-Apr-2024 14:46:44 UTC] WordPress database error Table 'locazvwl_wp6457.wpdf_wappcomment' doesn't exist for query SHOW FULL COLUMNS FROM `wpdf_wappcomment` made by do_action('wp_ajax_create_app'), WP_Hook->do_action, WP_Hook->apply_filters, wappPress_admin_setting->create_app, wcurlrequest
+[30-Apr-2024 14:46:56 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:46:56 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:47:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:47:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:47:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:47:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:47:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:47:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:48:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:48:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:48:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:48:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:49:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:49:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:49:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:49:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:49:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:49:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 14:50:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 14:50:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 15:31:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 15:31:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 15:32:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 16:06:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 16:06:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 17:28:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 17:28:49 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 17:29:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 17:29:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 17:30:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 17:30:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 17:30:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 17:30:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 17:30:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 17:30:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 17:34:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 17:34:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 17:34:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 17:34:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
+[30-Apr-2024 17:34:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 1322
+[30-Apr-2024 17:35:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/locazvwl/shop01.locarnoconsulting.com/wp-content/plugins/wapppress-builds-android-app-for-website/includes/wappPress_admin_setting.php on line 69
